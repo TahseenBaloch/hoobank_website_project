@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+.gradient-color {
+  background: linear-gradient(to right, rgb(50, 186, 206), rgb(160, 237, 240));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+.white__gradient {
+  background: rgba(255, 255, 255, 1);
+  filter: blur(750px);
+}
+.component-gradient {
+  background: rgba(50, 185, 206, 0.645);
+  filter: blur(200px);
+}
+.component-gradient2 {
+  background: rgba(50, 185, 206, 0.645);
+  filter: blur(300px);
+}
+.mobile-menu-gradient {
+  background: rgb(229, 229, 229);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 185, 206, 1) 0%,
+    rgba(50, 185, 206, 0.645) 100%
+  );
+}
+.button-gradient {
+  background: rgb(50, 185, 206);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 185, 206, 1) 0%,
+    rgba(96, 223, 242, 1) 100%
+  );
+}
+.bg-gray-gradient {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
